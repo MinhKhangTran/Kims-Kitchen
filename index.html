@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kim's Kitchen</title>
+    <script
+      src="https://kit.fontawesome.com/48d84926e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <main>
+      <section class="hero">
+        <div class="hero__img"></div>
+        <h4 class="hero__title">koreanische Küche</h4>
+        <h3 class="hero__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
+          aliquid.
+        </h3>
+        <a href="#about">
+          <button class="btn large">Entdecke mehr</button>
+        </a>
+
+        <div class="hero__toggler">
+          <i class="fas fa-pepper-hot"></i>
+        </div>
+        <a href="#about">
+          <button class="hero__chevron">
+            <img src="./chevron-double-down.svg" alt="" />
+          </button>
+        </a>
+      </section>
+      <aside class="sidebar">
+        <h3 class="sidebar__title">Kim's Kitchen</h3>
+        <ul class="sidebar__nav">
+          <li><a href="#about">Über uns</a></li>
+          <li><a href="#gallery">Gallerie</a></li>
+          <li><a href="./menu.html">Menü</a></li>
+        </ul>
+        <button class="sidebar__close">
+          <i class="fas fa-times"></i>
+        </button>
+      </aside>
+      <main id="about" class="about">
+        <section class="benefits">
+          <div class="benefit">
+            <img class="benefit__icon" src="./wallet2.svg" alt="" />
+            <p class="benefit__text">Gut für den Geldbeutel.</p>
+          </div>
+
+          <div class="benefit">
+            <img class="benefit__icon" src="./calendar3.svg" alt="" />
+            <p class="benefit__text">Jeden Tag geöffnet.</p>
+          </div>
+
+          <div class="benefit">
+            <img class="benefit__icon" src="./truck.svg" alt="" />
+            <p class="benefit__text">Kann auch geliefert werden.</p>
+          </div>
+
+          <div class="benefit">
+            <img class="benefit__icon" src="./heart.svg" alt="" />
+            <p class="benefit__text">Mit Liebe gekocht.</p>
+          </div>
+        </section>
+        <section class="aboutus">
+          <div class="aboutus__center">
+            <div class="aboutus__text">
+              <h2 class="aboutus__title">Entdecke unsere Küche</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                deserunt tenetur odit. Numquam culpa exercitationem molestiae
+                quisquam ex?
+              </p>
+              <a href="menu.html"
+                ><button class="btn middle">Entdecke mehr</button></a
+              >
+            </div>
+            <div class="aboutus__img">
+              <img src="./img/item-3.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+      </main>
+      <main class="gallery" id="gallery">
+        <section class="gallery-center">
+          <h2 class="gallery__title">Unsere Favorite</h2>
+          <div class="gallery__imageslider">
+            <button class="gallery__prev">
+              <img src="./chevron-double-left.svg" alt="" />
+            </button>
+            <div class="gallery__image">
+              <img class="gallery__image--img" src="./img/item-1.jpg" alt="" />
+            </div>
+            <button class="gallery__next">
+              <img src="./chevron-double-right.svg" alt="" />
+            </button>
+          </div>
+        </section>
+      </main>
+    </main>
+    <footer class="footer">
+      <p>&copy; copyright 2020</p>
+      <p>Kim's Kitchen</p>
+      <p><i class="fab fa-instagram"></i></p>
+    </footer>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
